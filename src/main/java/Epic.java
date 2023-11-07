@@ -5,6 +5,7 @@ public class Epic extends Task {
         super(id); // вызов родительского конструктора
         this.subtasks = subtasks; // заполнение своих полей
     }
+
     public String[] getSubtasks() {
         return subtasks;
     }
